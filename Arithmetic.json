@@ -1,0 +1,600 @@
+{  
+  "title": "Трудоустройство работников",
+  "description": null,
+  "decisions": [
+    {
+      "id": "1",
+      "name": "1",
+      "description": null,
+      "criteria": [
+        {
+          "id": "0",
+          "name": "Профессионализм",
+          "description": null,
+          "orientation": "Benefit",
+          "type": "Нечеткий"
+        },
+        {
+          "id": "1",
+          "name": "Коммуникация",
+          "description": null,
+          "orientation": "Benefit",
+          "type": "Нечеткий"
+        },
+        {
+          "id": "2",
+          "name": "Ответственность",
+          "description": null,
+          "orientation": "Benefit",
+          "type": "Нечеткий"
+        },
+        {
+          "id": "3",
+          "name": "Лидерство",
+          "description": null,
+          "orientation": "Benefit",
+          "type": "Нечеткий"
+        },
+        {
+          "id": "4",
+          "name": "Мотивация",
+          "description": null,
+          "orientation": "Benefit",
+          "type": "Нечеткий"
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "A1",
+          "name": "A1"
+        },
+        {
+          "id": "A2",
+          "name": "A2"
+        },
+        {
+          "id": "A3",
+          "name": "A3"
+        },
+        {
+          "id": "A4",
+          "name": "A4"
+        },
+        {
+          "id": "A5",
+          "name": "A5"
+        },
+        {
+          "id": "A6",
+          "name": "A6"
+        },
+        {
+          "id": "A7",
+          "name": "A7"
+        },
+        {
+          "id": "A8",
+          "name": "A8"
+        },
+        {
+          "id": "A9",
+          "name": "A9"
+        },
+        {
+          "id": "A10",
+          "name": "A10"
+        },
+        {
+          "id": "A11",
+          "name": "A11"
+        },
+        {
+          "id": "A12",
+          "name": "A12"
+        },
+        {
+          "id": "A13",
+          "name": "A13"
+        },
+        {
+          "id": "A14",
+          "name": "A14"
+        },
+        {
+          "id": "A15",
+          "name": "A15"
+        }
+      ],
+      "profiles": [
+        {
+          "name": "Профессионализм",
+          "values": [
+            {
+              "nameAlternative": "P1",
+              "value": "Triangular(0; 0; 0)"
+            },
+            {
+              "nameAlternative": "P2",
+              "value": "Triangular(20; 40; 60)"
+            },
+            {
+              "nameAlternative": "P3",
+              "value": "Triangular(60; 80; 100)"
+            },
+            {
+              "nameAlternative": "P4",
+              "value": "Triangular(100; 100; 100)"
+            }
+          ]
+        },
+        {
+          "name": "Коммуникация",
+          "values": [
+            {
+              "nameAlternative": "P1",
+              "value": "Triangular(0; 0; 0)"
+            },
+            {
+              "nameAlternative": "P2",
+              "value": "Triangular(40; 60; 80)"
+            },
+            {
+              "nameAlternative": "P3",
+              "value": "Triangular(50; 70; 90)"
+            },
+            {
+              "nameAlternative": "P4",
+              "value": "Triangular(100; 100; 100)"
+            }
+          ]
+        },
+        {
+          "name": "Ответственность",
+          "values": [
+            {
+              "nameAlternative": "P1",
+              "value": "Triangular(0; 0; 0)"
+            },
+            {
+              "nameAlternative": "P2",
+              "value": "Triangular(40; 60; 80)"
+            },
+            {
+              "nameAlternative": "P3",
+              "value": "Triangular(50; 70; 90)"
+            },
+            {
+              "nameAlternative": "P4",
+              "value": "Triangular(100; 100; 100)"
+            }
+          ]
+        },
+        {
+          "name": "Лидерство",
+          "values": [
+            {
+              "nameAlternative": "P1",
+              "value": "Triangular(0; 0; 0)"
+            },
+            {
+              "nameAlternative": "P2",
+              "value": "Triangular(20; 40; 60)"
+            },
+            {
+              "nameAlternative": "P3",
+              "value": "Triangular(40; 60; 80)"
+            },
+            {
+              "nameAlternative": "P4",
+              "value": "Triangular(100; 100; 100)"
+            }
+          ]
+        },
+        {
+          "name": "Мотивация",
+          "values": [
+            {
+              "nameAlternative": "P1",
+              "value": "Triangular(0; 0; 0)"
+            },
+            {
+              "nameAlternative": "P2",
+              "value": "Triangular(20; 40; 60)"
+            },
+            {
+              "nameAlternative": "P3",
+              "value": "Triangular(40; 60; 80)"
+            },
+            {
+              "nameAlternative": "P4",
+              "value": "Triangular(100; 100; 100)"
+            }
+          ]
+        }
+      ],
+      "results": {
+        "decisionResultUnits": [
+          {
+            "name": "Агрегация",
+            "type": null,
+            "typeName": "DecernsGdss.Decisions.Sdk.AggregationPreferenceResult",
+            "parameters": {
+              "aggregationPreference": {
+                "aggregations": {
+                  "units": [
+                    {
+                      "name": "Вес критериев",
+                      "criterionValuetions": [
+                        {
+                          "name": "Приоритет",
+                          "scaleType": "Decerns.Scales.TriangularFuzzyNumberScale",
+                          "values": [
+                            {
+                              "nameAlternative": "Профессионализм",
+                              "value": "Triangular(0.42857142857142855; 0.7142857142857143; 1)"
+                            },
+                            {
+                              "nameAlternative": "Коммуникация",
+                              "value": "Triangular(0.4857142857142857; 0.7428571428571429; 1)"
+                            },
+                            {
+                              "nameAlternative": "Ответственность",
+                              "value": "Triangular(0.37142857142857144; 0.6285714285714286; 0.8857142857142857)"
+                            },
+                            {
+                              "nameAlternative": "Лидерство",
+                              "value": "Triangular(0.05714285714285714; 0.2857142857142857; 0.5142857142857142)"
+                            },
+                            {
+                              "nameAlternative": "Мотивация",
+                              "value": "Triangular(0.2857142857142857; 0.4857142857142857; 0.7142857142857143)"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Оценка альтернатив",
+                      "criterionValuetions": [
+                        {
+                          "name": "Профессионализм",
+                          "scaleType": "Decerns.Scales.TriangularFuzzyNumberScale",
+                          "values": [
+                            {
+                              "nameAlternative": "A1",
+                              "value": "Triangular(58; 71; 79)"
+                            },
+                            {
+                              "nameAlternative": "A2",
+                              "value": "Triangular(76; 88; 97)"
+                            },
+                            {
+                              "nameAlternative": "A3",
+                              "value": "Triangular(41; 53; 68)"
+                            },
+                            {
+                              "nameAlternative": "A4",
+                              "value": "Triangular(39; 48; 60)"
+                            },
+                            {
+                              "nameAlternative": "A5",
+                              "value": "Triangular(33; 47; 58)"
+                            },
+                            {
+                              "nameAlternative": "A6",
+                              "value": "Triangular(45; 53; 63)"
+                            },
+                            {
+                              "nameAlternative": "A7",
+                              "value": "Triangular(81; 87; 94)"
+                            },
+                            {
+                              "nameAlternative": "A8",
+                              "value": "Triangular(65; 72; 81)"
+                            },
+                            {
+                              "nameAlternative": "A9",
+                              "value": "Triangular(38; 49; 63)"
+                            },
+                            {
+                              "nameAlternative": "A10",
+                              "value": "Triangular(46; 53; 66)"
+                            },
+                            {
+                              "nameAlternative": "A11",
+                              "value": "Triangular(47; 60; 68)"
+                            },
+                            {
+                              "nameAlternative": "A12",
+                              "value": "Triangular(53; 65; 72)"
+                            },
+                            {
+                              "nameAlternative": "A13",
+                              "value": "Triangular(63; 71; 78)"
+                            },
+                            {
+                              "nameAlternative": "A14",
+                              "value": "Triangular(44; 59; 71)"
+                            },
+                            {
+                              "nameAlternative": "A15",
+                              "value": "Triangular(81; 87; 95)"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Коммуникация",
+                          "scaleType": "Decerns.Scales.TriangularFuzzyNumberScale",
+                          "values": [
+                            {
+                              "nameAlternative": "A1",
+                              "value": "Triangular(41; 54; 65)"
+                            },
+                            {
+                              "nameAlternative": "A2",
+                              "value": "Triangular(83; 91; 98)"
+                            },
+                            {
+                              "nameAlternative": "A3",
+                              "value": "Triangular(38; 54; 68)"
+                            },
+                            {
+                              "nameAlternative": "A4",
+                              "value": "Triangular(30; 45; 57)"
+                            },
+                            {
+                              "nameAlternative": "A5",
+                              "value": "Triangular(32; 44; 61)"
+                            },
+                            {
+                              "nameAlternative": "A6",
+                              "value": "Triangular(50; 61; 76)"
+                            },
+                            {
+                              "nameAlternative": "A7",
+                              "value": "Triangular(79; 87; 93)"
+                            },
+                            {
+                              "nameAlternative": "A8",
+                              "value": "Triangular(36; 48; 62)"
+                            },
+                            {
+                              "nameAlternative": "A9",
+                              "value": "Triangular(44; 53; 73)"
+                            },
+                            {
+                              "nameAlternative": "A10",
+                              "value": "Triangular(42; 51; 61)"
+                            },
+                            {
+                              "nameAlternative": "A11",
+                              "value": "Triangular(37; 44; 57)"
+                            },
+                            {
+                              "nameAlternative": "A12",
+                              "value": "Triangular(36; 47; 62)"
+                            },
+                            {
+                              "nameAlternative": "A13",
+                              "value": "Triangular(30; 42; 59)"
+                            },
+                            {
+                              "nameAlternative": "A14",
+                              "value": "Triangular(26; 42; 56)"
+                            },
+                            {
+                              "nameAlternative": "A15",
+                              "value": "Triangular(80; 89; 96)"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Ответственность",
+                          "scaleType": "Decerns.Scales.TriangularFuzzyNumberScale",
+                          "values": [
+                            {
+                              "nameAlternative": "A1",
+                              "value": "Triangular(24; 44; 68)"
+                            },
+                            {
+                              "nameAlternative": "A2",
+                              "value": "Triangular(79; 87; 95)"
+                            },
+                            {
+                              "nameAlternative": "A3",
+                              "value": "Triangular(39; 49; 65)"
+                            },
+                            {
+                              "nameAlternative": "A4",
+                              "value": "Triangular(36; 52; 65)"
+                            },
+                            {
+                              "nameAlternative": "A5",
+                              "value": "Triangular(48; 59; 69)"
+                            },
+                            {
+                              "nameAlternative": "A6",
+                              "value": "Triangular(38; 52; 69)"
+                            },
+                            {
+                              "nameAlternative": "A7",
+                              "value": "Triangular(81; 88; 95)"
+                            },
+                            {
+                              "nameAlternative": "A8",
+                              "value": "Triangular(56; 70; 78)"
+                            },
+                            {
+                              "nameAlternative": "A9",
+                              "value": "Triangular(21; 40; 56)"
+                            },
+                            {
+                              "nameAlternative": "A10",
+                              "value": "Triangular(24.4; 29.8; 50.2)"
+                            },
+                            {
+                              "nameAlternative": "A11",
+                              "value": "Triangular(42; 58; 76)"
+                            },
+                            {
+                              "nameAlternative": "A12",
+                              "value": "Triangular(38; 49; 64)"
+                            },
+                            {
+                              "nameAlternative": "A13",
+                              "value": "Triangular(44; 62; 80)"
+                            },
+                            {
+                              "nameAlternative": "A14",
+                              "value": "Triangular(33; 43; 61)"
+                            },
+                            {
+                              "nameAlternative": "A15",
+                              "value": "Triangular(81; 86; 93)"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Лидерство",
+                          "scaleType": "Decerns.Scales.TriangularFuzzyNumberScale",
+                          "values": [
+                            {
+                              "nameAlternative": "A1",
+                              "value": "Triangular(31; 48; 62)"
+                            },
+                            {
+                              "nameAlternative": "A2",
+                              "value": "Triangular(84; 92; 99)"
+                            },
+                            {
+                              "nameAlternative": "A3",
+                              "value": "Triangular(37; 53; 68)"
+                            },
+                            {
+                              "nameAlternative": "A4",
+                              "value": "Triangular(24; 42; 66)"
+                            },
+                            {
+                              "nameAlternative": "A5",
+                              "value": "Triangular(44; 57; 76)"
+                            },
+                            {
+                              "nameAlternative": "A6",
+                              "value": "Triangular(38.4; 51.8; 62.4)"
+                            },
+                            {
+                              "nameAlternative": "A7",
+                              "value": "Triangular(78; 86; 94)"
+                            },
+                            {
+                              "nameAlternative": "A8",
+                              "value": "Triangular(43; 54; 67)"
+                            },
+                            {
+                              "nameAlternative": "A9",
+                              "value": "Triangular(30; 43; 58)"
+                            },
+                            {
+                              "nameAlternative": "A10",
+                              "value": "Triangular(33; 53; 80)"
+                            },
+                            {
+                              "nameAlternative": "A11",
+                              "value": "Triangular(26.8; 41; 54.8)"
+                            },
+                            {
+                              "nameAlternative": "A12",
+                              "value": "Triangular(21.4; 32; 62.8)"
+                            },
+                            {
+                              "nameAlternative": "A13",
+                              "value": "Triangular(33; 44; 62)"
+                            },
+                            {
+                              "nameAlternative": "A14",
+                              "value": "Triangular(31; 41; 51)"
+                            },
+                            {
+                              "nameAlternative": "A15",
+                              "value": "Triangular(73; 85; 97)"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Мотивация",
+                          "scaleType": "Decerns.Scales.TriangularFuzzyNumberScale",
+                          "values": [
+                            {
+                              "nameAlternative": "A1",
+                              "value": "Triangular(56; 69; 81)"
+                            },
+                            {
+                              "nameAlternative": "A2",
+                              "value": "Triangular(78; 88; 95)"
+                            },
+                            {
+                              "nameAlternative": "A3",
+                              "value": "Triangular(52; 62; 77)"
+                            },
+                            {
+                              "nameAlternative": "A4",
+                              "value": "Triangular(42; 58; 75)"
+                            },
+                            {
+                              "nameAlternative": "A5",
+                              "value": "Triangular(40; 55; 72)"
+                            },
+                            {
+                              "nameAlternative": "A6",
+                              "value": "Triangular(41.4; 52.2; 67.6)"
+                            },
+                            {
+                              "nameAlternative": "A7",
+                              "value": "Triangular(80; 87; 97)"
+                            },
+                            {
+                              "nameAlternative": "A8",
+                              "value": "Triangular(44; 55; 65)"
+                            },
+                            {
+                              "nameAlternative": "A9",
+                              "value": "Triangular(40; 50; 72)"
+                            },
+                            {
+                              "nameAlternative": "A10",
+                              "value": "Triangular(46; 62; 75)"
+                            },
+                            {
+                              "nameAlternative": "A11",
+                              "value": "Triangular(42; 53; 61)"
+                            },
+                            {
+                              "nameAlternative": "A12",
+                              "value": "Triangular(48; 55; 66)"
+                            },
+                            {
+                              "nameAlternative": "A13",
+                              "value": "Triangular(47; 56; 67)"
+                            },
+                            {
+                              "nameAlternative": "A14",
+                              "value": "Triangular(39; 52; 71)"
+                            },
+                            {
+                              "nameAlternative": "A15",
+                              "value": "Triangular(86; 93; 98)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

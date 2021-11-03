@@ -1,0 +1,600 @@
+{  
+  "title": "Трудоустройство работников",
+  "description": null,
+  "decisions": [
+    {
+      "id": "1",
+      "name": "1",
+      "description": null,
+      "criteria": [
+        {
+          "id": "0",
+          "name": "Профессионализм",
+          "description": null,
+          "orientation": "Benefit",
+          "type": "Нечеткий"
+        },
+        {
+          "id": "1",
+          "name": "Коммуникация",
+          "description": null,
+          "orientation": "Benefit",
+          "type": "Нечеткий"
+        },
+        {
+          "id": "2",
+          "name": "Ответственность",
+          "description": null,
+          "orientation": "Benefit",
+          "type": "Нечеткий"
+        },
+        {
+          "id": "3",
+          "name": "Лидерство",
+          "description": null,
+          "orientation": "Benefit",
+          "type": "Нечеткий"
+        },
+        {
+          "id": "4",
+          "name": "Мотивация",
+          "description": null,
+          "orientation": "Benefit",
+          "type": "Нечеткий"
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "A1",
+          "name": "A1"
+        },
+        {
+          "id": "A2",
+          "name": "A2"
+        },
+        {
+          "id": "A3",
+          "name": "A3"
+        },
+        {
+          "id": "A4",
+          "name": "A4"
+        },
+        {
+          "id": "A5",
+          "name": "A5"
+        },
+        {
+          "id": "A6",
+          "name": "A6"
+        },
+        {
+          "id": "A7",
+          "name": "A7"
+        },
+        {
+          "id": "A8",
+          "name": "A8"
+        },
+        {
+          "id": "A9",
+          "name": "A9"
+        },
+        {
+          "id": "A10",
+          "name": "A10"
+        },
+        {
+          "id": "A11",
+          "name": "A11"
+        },
+        {
+          "id": "A12",
+          "name": "A12"
+        },
+        {
+          "id": "A13",
+          "name": "A13"
+        },
+        {
+          "id": "A14",
+          "name": "A14"
+        },
+        {
+          "id": "A15",
+          "name": "A15"
+        }
+      ],
+      "profiles": [
+        {
+          "name": "Профессионализм",
+          "values": [
+            {
+              "nameAlternative": "P1",
+              "value": "Triangular(0; 0; 0)"
+            },
+            {
+              "nameAlternative": "P2",
+              "value": "Triangular(20; 40; 60)"
+            },
+            {
+              "nameAlternative": "P3",
+              "value": "Triangular(60; 80; 100)"
+            },
+            {
+              "nameAlternative": "P4",
+              "value": "Triangular(100; 100; 100)"
+            }
+          ]
+        },
+        {
+          "name": "Коммуникация",
+          "values": [
+            {
+              "nameAlternative": "P1",
+              "value": "Triangular(0; 0; 0)"
+            },
+            {
+              "nameAlternative": "P2",
+              "value": "Triangular(40; 60; 80)"
+            },
+            {
+              "nameAlternative": "P3",
+              "value": "Triangular(50; 70; 90)"
+            },
+            {
+              "nameAlternative": "P4",
+              "value": "Triangular(100; 100; 100)"
+            }
+          ]
+        },
+        {
+          "name": "Ответственность",
+          "values": [
+            {
+              "nameAlternative": "P1",
+              "value": "Triangular(0; 0; 0)"
+            },
+            {
+              "nameAlternative": "P2",
+              "value": "Triangular(40; 60; 80)"
+            },
+            {
+              "nameAlternative": "P3",
+              "value": "Triangular(50; 70; 90)"
+            },
+            {
+              "nameAlternative": "P4",
+              "value": "Triangular(100; 100; 100)"
+            }
+          ]
+        },
+        {
+          "name": "Лидерство",
+          "values": [
+            {
+              "nameAlternative": "P1",
+              "value": "Triangular(0; 0; 0)"
+            },
+            {
+              "nameAlternative": "P2",
+              "value": "Triangular(20; 40; 60)"
+            },
+            {
+              "nameAlternative": "P3",
+              "value": "Triangular(40; 60; 80)"
+            },
+            {
+              "nameAlternative": "P4",
+              "value": "Triangular(100; 100; 100)"
+            }
+          ]
+        },
+        {
+          "name": "Мотивация",
+          "values": [
+            {
+              "nameAlternative": "P1",
+              "value": "Triangular(0; 0; 0)"
+            },
+            {
+              "nameAlternative": "P2",
+              "value": "Triangular(20; 40; 60)"
+            },
+            {
+              "nameAlternative": "P3",
+              "value": "Triangular(40; 60; 80)"
+            },
+            {
+              "nameAlternative": "P4",
+              "value": "Triangular(100; 100; 100)"
+            }
+          ]
+        }
+      ],
+      "results": {
+        "decisionResultUnits": [
+          {
+            "name": "Агрегация",
+            "type": null,
+            "typeName": "DecernsGdss.Decisions.Sdk.AggregationPreferenceResult",
+            "parameters": {
+              "aggregationPreference": {
+                "aggregations": {
+                  "units": [
+                    {
+                      "name": "Вес критериев",
+                      "criterionValuetions": [
+                        {
+                          "name": "Приоритет",
+                          "scaleType": "Decerns.Scales.TriangularFuzzyNumberScale",
+                          "values": [
+                            {
+                              "nameAlternative": "Профессионализм",
+                              "value": "Triangular(0.41223431739053756; 0.7085367723190429; 1)"
+                            },
+                            {
+                              "nameAlternative": "Коммуникация",
+                              "value": "Triangular(0.44705648032899054; 0.7085367723190429; 0.9641925040026271)"
+                            },
+                            {
+                              "nameAlternative": "Ответственность",
+                              "value": "Triangular(0.3388054567002404; 0.6218736407774575; 0.8862936017026217)"
+                            },
+                            {
+                              "nameAlternative": "Лидерство",
+                              "value": "Triangular(0; 0.2880805202807981; 0.5135330435446758)"
+                            },
+                            {
+                              "nameAlternative": "Мотивация",
+                              "value": "Triangular(0; 0.45771263283475083; 0.7045559766521664)"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Оценка альтернатив",
+                      "criterionValuetions": [
+                        {
+                          "name": "Профессионализм",
+                          "scaleType": "Decerns.Scales.TriangularFuzzyNumberScale",
+                          "values": [
+                            {
+                              "nameAlternative": "A1",
+                              "value": "Triangular(57.52652095513643; 70.68051677550785; 78.84195511651701)"
+                            },
+                            {
+                              "nameAlternative": "A2",
+                              "value": "Triangular(75.7797644889624; 87.91127491674635; 96.9692782587681)"
+                            },
+                            {
+                              "nameAlternative": "A3",
+                              "value": "Triangular(32.587531853156385; 47.34949935665795; 64.93217891528677)"
+                            },
+                            {
+                              "nameAlternative": "A4",
+                              "value": "Triangular(30.638870628004057; 42.235715299335084; 56.93748985970155)"
+                            },
+                            {
+                              "nameAlternative": "A5",
+                              "value": "Triangular(30.638870628004057; 45.21602297437601; 56.46047658326887)"
+                            },
+                            {
+                              "nameAlternative": "A6",
+                              "value": "Triangular(42.68788260053176; 50.0797452219603; 60.95520891154639)"
+                            },
+                            {
+                              "nameAlternative": "A7",
+                              "value": "Triangular(80.72125210591675; 86.85179340413734; 93.92613372948547)"
+                            },
+                            {
+                              "nameAlternative": "A8",
+                              "value": "Triangular(61.085040139211955; 69.27979236403773; 79.29531141235184)"
+                            },
+                            {
+                              "nameAlternative": "A9",
+                              "value": "Triangular(32.00868668880943; 44.34583378632607; 58.785121807249816)"
+                            },
+                            {
+                              "nameAlternative": "A10",
+                              "value": "Triangular(37.763500451796084; 45.7676009963996; 59.42424075574083)"
+                            },
+                            {
+                              "nameAlternative": "A11",
+                              "value": "Triangular(45.80344097847166; 58.418830836910104; 66.08061998986767)"
+                            },
+                            {
+                              "nameAlternative": "A12",
+                              "value": "Triangular(49.672538764872414; 62.83729962576024; 70.38964057871047)"
+                            },
+                            {
+                              "nameAlternative": "A13",
+                              "value": "Triangular(62.26660251719745; 70.49017150611185; 77.64682691005909)"
+                            },
+                            {
+                              "nameAlternative": "A14",
+                              "value": "Triangular(43.378870847907955; 58.325806748806166; 70.38964057871047)"
+                            },
+                            {
+                              "nameAlternative": "A15",
+                              "value": "Triangular(80.85646434159726; 86.9120235545619; 94.94731000639865)"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Коммуникация",
+                          "scaleType": "Decerns.Scales.TriangularFuzzyNumberScale",
+                          "values": [
+                            {
+                              "nameAlternative": "A1",
+                              "value": "Triangular(35.194820289355235; 49.82923758462071; 62.0252518306382)"
+                            },
+                            {
+                              "nameAlternative": "A2",
+                              "value": "Triangular(82.96355440131295; 90.97849087653161; 97.96917302662301)"
+                            },
+                            {
+                              "nameAlternative": "A3",
+                              "value": "Triangular(28.252345004947674; 48.51609668646932; 66.08061998986767)"
+                            },
+                            {
+                              "nameAlternative": "A4",
+                              "value": "Triangular(25.50849001251582; 42.822547366766486; 55.985110264021586)"
+                            },
+                            {
+                              "nameAlternative": "A5",
+                              "value": "Triangular(27.019200770412272; 41.69405251041168; 59.50222559210135)"
+                            },
+                            {
+                              "nameAlternative": "A6",
+                              "value": "Triangular(44.16333444896913; 55.21072791171609; 72.47796636776957)"
+                            },
+                            {
+                              "nameAlternative": "A7",
+                              "value": "Triangular(78.97401943339281; 86.9120235545619; 92.91594039656997)"
+                            },
+                            {
+                              "nameAlternative": "A8",
+                              "value": "Triangular(30.86253576831873; 43.94027589661908; 59.08353878125556)"
+                            },
+                            {
+                              "nameAlternative": "A9",
+                              "value": "Triangular(35.94431818738024; 46.02619147574734; 70.24238062603519)"
+                            },
+                            {
+                              "nameAlternative": "A10",
+                              "value": "Triangular(39.87421134470928; 48.913822841295975; 57.85155024015764)"
+                            },
+                            {
+                              "nameAlternative": "A11",
+                              "value": "Triangular(33.22699029744871; 41.12268512246253; 55.146002378585)"
+                            },
+                            {
+                              "nameAlternative": "A12",
+                              "value": "Triangular(31.59818305749272; 43.34492802788651; 59.762008362199104)"
+                            },
+                            {
+                              "nameAlternative": "A13",
+                              "value": "Triangular(27.5945932292243; 40.59529667518311; 58.418830836910104)"
+                            },
+                            {
+                              "nameAlternative": "A14",
+                              "value": "Triangular(24.91461879231035; 41.82558210365094; 55.78003108649139)"
+                            },
+                            {
+                              "nameAlternative": "A15",
+                              "value": "Triangular(79.81949982785918; 88.80547193054501; 95.9263553308771)"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Ответственность",
+                          "scaleType": "Decerns.Scales.TriangularFuzzyNumberScale",
+                          "values": [
+                            {
+                              "nameAlternative": "A1",
+                              "value": "Triangular(20.000000000000004; 41.289179173333686; 67.31730872677198)"
+                            },
+                            {
+                              "nameAlternative": "A2",
+                              "value": "Triangular(78.97401943339281; 86.96577252797805; 94.94731000639865)"
+                            },
+                            {
+                              "nameAlternative": "A3",
+                              "value": "Triangular(27.8651802273122; 40.759655480296146; 57.937003419627914)"
+                            },
+                            {
+                              "nameAlternative": "A4",
+                              "value": "Triangular(24.91461879231035; 44.702071008686765; 57.11901582829455)"
+                            },
+                            {
+                              "nameAlternative": "A5",
+                              "value": "Triangular(44.77694926940431; 56.326998785546245; 66.8271587396698)"
+                            },
+                            {
+                              "nameAlternative": "A6",
+                              "value": "Triangular(30.314331330207967; 47.08443494072631; 68.01277671381736)"
+                            },
+                            {
+                              "nameAlternative": "A7",
+                              "value": "Triangular(80.60219369356996; 87.79605659809683; 94.89464923632808)"
+                            },
+                            {
+                              "nameAlternative": "A8",
+                              "value": "Triangular(51.01698002503164; 68.35010865630929; 76.6783810499439)"
+                            },
+                            {
+                              "nameAlternative": "A9",
+                              "value": "Triangular(17.18771927587479; 39.18631220291651; 55.87268945637103)"
+                            },
+                            {
+                              "nameAlternative": "A10",
+                              "value": "Triangular(22.4949222628419; 29.08821034214952; 48.16449370561385)"
+                            },
+                            {
+                              "nameAlternative": "A11",
+                              "value": "Triangular(33.65865436338599; 51.93957121017387; 74.1684297517188)"
+                            },
+                            {
+                              "nameAlternative": "A12",
+                              "value": "Triangular(37.27919273191352; 48.28651494537551; 62.33033509950714)"
+                            },
+                            {
+                              "nameAlternative": "A13",
+                              "value": "Triangular(37.27919273191352; 60.491869109830006; 78.10682896102739)"
+                            },
+                            {
+                              "nameAlternative": "A14",
+                              "value": "Triangular(27.8651802273122; 39.90974991392958; 60.220594187779014)"
+                            },
+                            {
+                              "nameAlternative": "A15",
+                              "value": "Triangular(80.85646434159726; 85.86458473324232; 92.91594039656997)"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Лидерство",
+                          "scaleType": "Decerns.Scales.TriangularFuzzyNumberScale",
+                          "values": [
+                            {
+                              "nameAlternative": "A1",
+                              "value": "Triangular(23.714406097793123; 45.94569042927788; 60.43800271171271)"
+                            },
+                            {
+                              "nameAlternative": "A2",
+                              "value": "Triangular(83.97560433906744; 91.9676200241238; 98.97937816869887)"
+                            },
+                            {
+                              "nameAlternative": "A3",
+                              "value": "Triangular(32.7716539242112; 48.55933748302039; 65.69862548606847)"
+                            },
+                            {
+                              "nameAlternative": "A4",
+                              "value": "Triangular(22.206430349229205; 41.45980143121261; 63.99011063174986)"
+                            },
+                            {
+                              "nameAlternative": "A5",
+                              "value": "Triangular(42.27335859913; 55.55510427711304; 74.55838546382705)"
+                            },
+                            {
+                              "nameAlternative": "A6",
+                              "value": "Triangular(34.09592633615304; 49.64836888192762; 59.491452057881936)"
+                            },
+                            {
+                              "nameAlternative": "A7",
+                              "value": "Triangular(77.89177444921347; 85.91768593942145; 93.92613372948547)"
+                            },
+                            {
+                              "nameAlternative": "A8",
+                              "value": "Triangular(35.65204915932007; 48.31407575952992; 64.97221111520146)"
+                            },
+                            {
+                              "nameAlternative": "A9",
+                              "value": "Triangular(25.50849001251582; 39.65018473953873; 55.58027651412401)"
+                            },
+                            {
+                              "nameAlternative": "A10",
+                              "value": "Triangular(27.8651802273122; 48.55933748302039; 79.17047464637368)"
+                            },
+                            {
+                              "nameAlternative": "A11",
+                              "value": "Triangular(24.344071950938623; 39.385301656147334; 53.95794908946767)"
+                            },
+                            {
+                              "nameAlternative": "A12",
+                              "value": "Triangular(20.476725110792195; 30.466731244137293; 59.304368313990594)"
+                            },
+                            {
+                              "nameAlternative": "A13",
+                              "value": "Triangular(30.638870628004057; 42.822547366766486; 60.93346248827459)"
+                            },
+                            {
+                              "nameAlternative": "A14",
+                              "value": "Triangular(28.853998118144276; 39.362834270353524; 49.672538764872414)"
+                            },
+                            {
+                              "nameAlternative": "A15",
+                              "value": "Triangular(72.59356179807413; 84.70465114600107; 96.91549604138932)"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Мотивация",
+                          "scaleType": "Decerns.Scales.TriangularFuzzyNumberScale",
+                          "values": [
+                            {
+                              "nameAlternative": "A1",
+                              "value": "Triangular(53.56581510307668; 66.81110609339243; 79.65921841384402)"
+                            },
+                            {
+                              "nameAlternative": "A2",
+                              "value": "Triangular(77.9611968183238; 87.96564185684542; 94.94731000639865)"
+                            },
+                            {
+                              "nameAlternative": "A3",
+                              "value": "Triangular(51.14622783130152; 60.968241884495754; 75.93378967184084)"
+                            },
+                            {
+                              "nameAlternative": "A4",
+                              "value": "Triangular(39.487009716696406; 55.32647468890368; 72.0793250926857)"
+                            },
+                            {
+                              "nameAlternative": "A5",
+                              "value": "Triangular(35.65204915932007; 52.83175933214462; 69.76266091316991)"
+                            },
+                            {
+                              "nameAlternative": "A6",
+                              "value": "Triangular(37.21685259578845; 48.79709673836485; 64.6322832840057)"
+                            },
+                            {
+                              "nameAlternative": "A7",
+                              "value": "Triangular(80.00000000000001; 86.9120235545619; 96.9692782587681)"
+                            },
+                            {
+                              "nameAlternative": "A8",
+                              "value": "Triangular(40.723360092807965; 53.78268784662852; 63.96728147480239)"
+                            },
+                            {
+                              "nameAlternative": "A9",
+                              "value": "Triangular(36.29678089903707; 47.18926048781711; 70.92879274227501)"
+                            },
+                            {
+                              "nameAlternative": "A10",
+                              "value": "Triangular(42.822547366766486; 60.43800271171271; 73.00372102718471)"
+                            },
+                            {
+                              "nameAlternative": "A11",
+                              "value": "Triangular(38.9805984091619; 50.682700503862335; 58.84529094227097)"
+                            },
+                            {
+                              "nameAlternative": "A12",
+                              "value": "Triangular(44.16333444896913; 50.977060586439094; 64.18086646779358)"
+                            },
+                            {
+                              "nameAlternative": "A13",
+                              "value": "Triangular(41.289179173333686; 50.856546092173076; 63.6825493297607)"
+                            },
+                            {
+                              "nameAlternative": "A14",
+                              "value": "Triangular(32.45342223199209; 48.51609668646932; 69.67122853998974)"
+                            },
+                            {
+                              "nameAlternative": "A15",
+                              "value": "Triangular(85.85814486631536; 92.91004477568809; 97.9148362360977)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
